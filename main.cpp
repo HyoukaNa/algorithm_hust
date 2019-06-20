@@ -3,15 +3,19 @@
 
 #include "tools/print.h"
 #include "offer/offer49.h"
+#include "leetcode/leetcode5.h"
+#include "leetcode/leetcode88.h"
+#include "leetcode/leetcode206.h"
 #include "leetcode/leetcode315.h"
+#include "leetcode/leetcode493.h"
 
 using namespace std;
 
 int main() {
 
-    Offer49 *of = new Offer49();
+    LeetCode206 *instance = new LeetCode206();
 
-    of->run();
+    instance->run();
 
     return 0;
 }
