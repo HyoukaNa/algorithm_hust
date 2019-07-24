@@ -2,13 +2,13 @@
 #include <string>
 
 #include "tools/print.h"
-#include "leetcode/leetcode393.h"
+#include "leetcode/leetcode63.h"
 
 using namespace std;
 
 int main() {
 
-    LeetCode393 *instance = new LeetCode393();
+    LeetCode63 *instance = new LeetCode63();
 
     instance->run();
 
